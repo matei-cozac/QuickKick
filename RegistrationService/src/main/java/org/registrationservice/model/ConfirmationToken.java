@@ -21,7 +21,7 @@ public class ConfirmationToken {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
+    private Integer id;
 
     /**
      * Conformation token is a UUID. The confirmation token must be unique and not null.

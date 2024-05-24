@@ -60,7 +60,7 @@ public class AuthService {
      * @throws
      * InvalidParameterException exception is thrown if the email is associated with another user.
      */
-    public UUID registerUser(RegisterUserDTO registerDto) {
+    public Integer registerUser(RegisterUserDTO registerDto) {
         if(userRepository.existsByAccount_Email(registerDto.getEmail())){
             throw new InvalidParameterException("Email already in use.");
         }

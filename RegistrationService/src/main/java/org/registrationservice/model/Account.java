@@ -23,12 +23,12 @@ public class Account implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
+    private Integer id;
 
     @Column(unique = true, nullable = false)
     private String email;
 
-    @Column(nullable = false)
+    @Column
     private String password;
 
     @Enumerated(EnumType.STRING)
@@ -36,6 +36,9 @@ public class Account implements UserDetails {
 
     @Column(nullable = false)
     private boolean activated = false;
+
+    @Column(nullable = false)
+    private boolean oauth = false;
 
     @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "user_confirmation_token", referencedColumnName = "id")

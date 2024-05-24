@@ -9,6 +9,7 @@ import lombok.Data;
 @Data
 @Builder
 public class AuthenticateResponseDTO {
+
     private String jwtToken;
 
     private String refreshToken;

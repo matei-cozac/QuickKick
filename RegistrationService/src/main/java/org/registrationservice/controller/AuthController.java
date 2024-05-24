@@ -59,7 +59,7 @@ public class AuthController {
      * @return
      * TokenResponse object, which contains both a jwtToken and a refresh token.
      */
-    @PostMapping("/authenticate")
+    @PostMapping("/login")
     public ResponseEntity<?> authenticate(@RequestBody LoginDTO loginDTO){
         var authResponse = authService.authenticate(loginDTO);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body("Login successfully.\n" +  authResponse);
