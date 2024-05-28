@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d161c71-22b5-4749-8222-30cf1b7efb4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/notificationservice/kafka/consumer/KafkaConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/notificationservice/kafka/consumer/KafkaListenerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/service/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/config/CustomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/config/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/config/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/controller/PrivateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/controller/PublicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/mapper/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/mapper/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/java/org/registrationservice/util/NotificationCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistrationService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/NotificationService">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/RegistrationService">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/RegistrationService">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RegistrationService" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RegistrationService" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BalteanuAndrei709&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BalteanuAndrei709/QuickKick.git&quot;,
+    &quot;accountId&quot;: &quot;c83d102d-399d-4daa-af7d-6ac0e20e6a96&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2g8GFa4Qq143Twc5XfY1PSXueQI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build RegistrationService.executor": "Run",
+    "Maven.NotificationService [clean].executor": "Run",
+    "Maven.NotificationService [package].executor": "Run",
+    "Maven.NotificationService [validate].executor": "Run",
+    "Maven.RegistrationService [clean].executor": "Run",
+    "Maven.RegistrationService [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AdminServiceApplication.executor": "Run",
+    "Spring Boot.NotificationServiceApplication.executor": "Run",
+    "Spring Boot.RegistrationServiceApplication (1).executor": "Run",
+    "Spring Boot.RegistrationServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Learning/GitHub Desktop/OnlineShop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learning\GitHub Desktop\QuickKick\NotificationService\src\main\resources\avro" />
+      <recent name="C:\Learning\GitHub Desktop\QuickKick\NotificationService\src\main\java\org\notificationservice\kafka\consumer" />
+      <recent name="C:\Learning\GitHub Desktop\QuickKick\RegistrationService\src\main\resources\avro" />
+      <recent name="C:\Learning\GitHub Desktop\QuickKick\RegistrationService\src\main\java\org\registrationservice\service" />
+      <recent name="C:\Learning\GitHub Desktop\QuickKick\RegistrationService\src\main\java\org\registrationservice\exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Learning\GitHub Desktop\QuickKick" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.adminservice.config" />
+      <recent name="org.adminservice.service" />
+      <recent name="org.notificationservice.service" />
+      <recent name="org.notificationservice.config" />
+      <recent name="org.registrationservice.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NotificationServiceApplication">
+    <configuration name="AdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AdminService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.adminservice.AdminServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="NotificationService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RegistrationService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.registrationservice.RegistrationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d161c71-22b5-4749-8222-30cf1b7efb4b" name="Changes" comment="" />
+      <created>1715071687952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715071687952</updated>
+      <workItem from="1715071689004" duration="10322000" />
+      <workItem from="1715154623438" duration="4049000" />
+      <workItem from="1715168303537" duration="723000" />
+      <workItem from="1715582790208" duration="16814000" />
+      <workItem from="1715673229947" duration="8199000" />
+      <workItem from="1715776874182" duration="1482000" />
+      <workItem from="1715793890363" duration="7000" />
+      <workItem from="1716354641429" duration="280000" />
+      <workItem from="1716455947700" duration="12688000" />
+      <workItem from="1716793324078" duration="2139000" />
+      <workItem from="1716797896588" duration="6333000" />
+      <workItem from="1716814366190" duration="3493000" />
+      <workItem from="1716817874827" duration="1153000" />
+      <workItem from="1716880323368" duration="10684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/6.2.4/spring-security-config-6.2.4.jar!/org/springframework/security/config/annotation/web/configurers/oauth2/client/OAuth2LoginConfigurer.class</url>
+          <line>183</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NotificationService/src/main/java/org/notificationservice/kafka/consumer/KafkaConsumerService.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

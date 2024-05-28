@@ -1,0 +1,21 @@
+{
+  "namespace": "avro",
+  "type": "record",
+  "name": "Notification",
+  "fields": [
+    {
+      "name": "message",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "error",
+      "type": "boolean"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "avro.java.string": "String"
+    }
+  ]
+}
